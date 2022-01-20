@@ -1,0 +1,55 @@
+body{
+    text-decoration: none;
+    background-color: rgb(255, 235, 235);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+.divrow{
+    margin-left:50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.divrow img{
+    width: 200px;
+    height: 200px;
+}
+nav{ 
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    width: 96%;
+    padding: 30px;
+    background-color: red; 
+    display: inline-flex;
+    
+}
+nav li{
+    margin-left: 60px;
+    list-style: none;
+     padding: 30px;
+}
+header{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(images.png);
+    align-items: center;
+}
+button{ margin-left: 50%;
+    align-items: center;
+    padding: 30px;
+    color: pink;
+    background-color: rgb(255, 74, 74);
+}
